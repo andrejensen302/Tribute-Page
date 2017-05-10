@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+body{
+  background: image_url('restaurant.png');
+}
+
 h1, h2{
   text-align: center
 }
@@ -64,9 +68,11 @@ ul{
 }
 
 .howard{
-  margin: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   max-height: 400px;
-  max-width: 400px
+  max-width: 400px;
 }
 
 /*
